@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 5px;
+    background-color: #31D2F2;
+        animation: mymove 10s infinite;
+      
+    }
+      @keyframes mymove {
+        from {background-color: #31D2F2;}
+        to {background-color: #18c6e8;}
+      }
+.image{
+    background-image: url(images/Tech\ vibe\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color: white;
+}
+.link:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.links{
+    float: right;
+}
